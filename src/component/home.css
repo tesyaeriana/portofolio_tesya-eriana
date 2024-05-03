@@ -1,0 +1,30 @@
+.home__content {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding-top: 5.5rem;
+    column-gap: 2rem;
+    align-items: center;
+    margin: 0 auto; /* Menambahkan margin otomatis untuk konten berada di tengah */
+    max-width: 968px;
+    justify-content: center;
+}
+
+.home__img {
+    background: url('../assets/home_img.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 300px;
+    height: 300px;
+    order: 1;
+    /* Anda mungkin perlu menyesuaikan tinggi gambar sesuai kebutuhan Anda */
+}
+
+.home__description{
+    padding-bottom: 25px;
+}
+.home__title, .home__subtitle{
+    padding-bottom: 5px;
+}
+
+

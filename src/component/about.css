@@ -1,0 +1,43 @@
+.about__container {
+    display: flex;
+    gap: 5rem;
+    flex-direction: row; /* Default flex direction */
+}
+
+.about__img {
+    width: 250px;
+    height: 250px; /* Penambahan satuan untuk height */
+    object-fit: cover;
+    border-radius: 1.5rem;
+    justify-self: center;
+}
+
+.about__description {
+    margin-bottom: var(--mb-2-5);
+}
+@media screen and (max-width: 992px) {
+    @media screen and (max-width: 992px) {
+        .about__container {
+            flex-direction: column; /* Mengubah arah tata letak menjadi kolom */
+            align-items: center; /* Menengahkan konten secara horizontal */
+            gap: 2rem; /* Mengurangi jarak antara konten */
+        }
+    
+        .about__img {
+            width: 220px;
+        }
+    
+        .about__description {
+            padding: 0; /* Menghapus padding */
+            text-align: center; /* Menengahkan deskripsi secara horizontal */
+        }
+    
+        .button-cv {
+            margin-top: 1rem; 
+            display: flex;
+            justify-content: center; /* Menengahkan konten tombol secara horizontal */
+        }
+    }
+    
+}
+
