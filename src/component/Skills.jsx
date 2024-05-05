@@ -7,7 +7,7 @@ import FigmaImg from "../assets/logos_figma.png";
 import './skills.css';
 const Skills = () => {
     return (
-        <section className="about section">
+        <section className="about section" id="skills">
             <h2 className="section__title">Skills</h2>
             <span className="section__subtitle">My Skills</span>
 

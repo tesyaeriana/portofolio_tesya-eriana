@@ -1,17 +1,19 @@
 import React from 'react';
-import './footer.css'
+import './footer.css';
+
 const Footer = () => {
     return (
-        <footer className='footer'>
+        <footer className='footer' id='contacts'>
             <div className="footer__container container">
                 <h3 className="footer__title">Connect With Me</h3>
                
                 <div className="footer__social">
-                    <a href="" className="footer__social-link" target='_blank'><i class="bx bxl-instagram"></i></a>
-                    <a href="" className="footer__social-link" target='_blank'><i class="bx bxl-github"></i></a>
-                    <a href="" className="footer__social-link" target='_blank'><i class="bx bxl-linkedin"></i></a>
+                    
+                    <a href="https://www.instagram.com/" className="footer__social-link" target='_blank' rel="noopener noreferrer"><i className="bx bxl-instagram"></i></a>
+                    <a href="https://github.com/tesyaeriana" className="footer__social-link" target='_blank' rel="noopener noreferrer"><i className="bx bxl-github"></i></a>
+                    <a href="https://www.linkedin.com/in/tesya-eriana/" className="footer__social-link" target='_blank' rel="noopener noreferrer"><i className="bx bxl-linkedin"></i></a>
                 </div>
-                <span className="section__subtitle">Tesya Eriana-2024</span>
+                <span className="section__subtitle">Tesya Eriana - 2024</span>
             </div>
         </footer>
     );

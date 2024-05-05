@@ -15,7 +15,7 @@ const Project = () => {
 
 
     return (
-        <section className="project section">
+        <section className="project section" id="project">
             <h2 className="section__title">Projects</h2>
             <span className="section__subtitle">What i offer</span>
 
@@ -33,7 +33,7 @@ const Project = () => {
                             <i onClick={() => toogleTab(0)} className="uil uil-times project__modal-close"></i>
                             <h3 className="project__modal-title">Design Web Donation</h3>
                             <p className="project__modal-description">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque dolores neque aliquam, dignissimos ea, repudiandae tempore, sed beatae repellendus illum fugiat molestias autem enim explicabo. Sapiente voluptas veniam incidunt minus.
+                            A website resulting from one of the micro challenge tasks from an independent study, namely creating a Rapid Report website design where on this website the public can make reports about people who need help and make donations.
                             </p>
 
                             <ul className="project__modal-project">
@@ -42,9 +42,40 @@ const Project = () => {
 
                                     </i>
                                     <p className="project__modal-info">
-                                        Lorem ipsum dolor.
+                                    create UI/UX research
                                     </p>
+                                    
                                 </li>
+                                <li className="project__modal-project">
+                                    <i className="uil uil-check-circle project__modal-icon">
+
+                                    </i>
+                                    <p className="project__modal-info">
+                                    create low-fi and hi-fi design in figma
+                                    </p>
+                                    
+                                </li>
+                                <li className="project__modal-project">
+                                    <i className="uil uil-check-circle project__modal-icon">
+
+                                    </i>
+                                    <p className="project__modal-info">
+                                    make a prototype in figma
+
+                                    </p>
+                                    
+                                </li>
+                                <li className="project__modal-project">
+                                    <i className="uil uil-check-circle project__modal-icon">
+
+                                    </i>
+                                    <p className="project__modal-info">
+                                    make usability testing
+
+                                    </p>
+                                    
+                                </li>
+                                
                             </ul>
                         </div>
                     </div>
@@ -63,17 +94,37 @@ const Project = () => {
                             <i onClick={() => toogleTab(0)} className="uil uil-times project__modal-close"></i>
                             <h3 className="project__modal-title">Design Web Donation</h3>
                             <p className="project__modal-description">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque dolores neque aliquam, dignissimos ea, repudiandae tempore, sed beatae repellendus illum fugiat molestias autem enim explicabo. Sapiente voluptas veniam incidunt minus.
+                            A website used to help victims of natural disasters through music events, it is a web-based platform where users can buy tickets and make donations. Ticket purchase transactions are designed simply to make the process easier. It contains stories about victims of natural disasters.
                             </p>
 
                             <ul className="project__modal-project">
+                            <li className="project__modal-project">
+                                    <i className="uil uil-check-circle project__modal-icon">
+
+                                    </i>
+                                    <p className="project__modal-info">
+                                    create UI/UX research
+                                    </p>
+                                    
+                                </li>
                                 <li className="project__modal-project">
                                     <i className="uil uil-check-circle project__modal-icon">
 
                                     </i>
                                     <p className="project__modal-info">
-                                        Lorem ipsum dolor.
+                                    create low-fi and hi-fi design in figma
                                     </p>
+                                    
+                                </li>
+                                <li className="project__modal-project">
+                                    <i className="uil uil-check-circle project__modal-icon">
+
+                                    </i>
+                                    <p className="project__modal-info">
+                                    make a prototype in figma
+
+                                    </p>
+                                    
                                 </li>
                             </ul>
                         </div>
@@ -93,7 +144,7 @@ const Project = () => {
                             <i onClick={() => toogleTab(0)} className="uil uil-times project__modal-close"></i>
                             <h3 className="project__modal-title">Bank Sampah</h3>
                             <p className="project__modal-description">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque dolores neque aliquam, dignissimos ea, repudiandae tempore, sed beatae repellendus illum fugiat molestias autem enim explicabo. Sapiente voluptas veniam incidunt minus.
+                            Bank Sampah Malang is a website for selling recyclable inorganic waste and valuable used items.
                             </p>
 
                             <ul className="project__modal-project">
@@ -102,9 +153,27 @@ const Project = () => {
 
                                     </i>
                                     <p className="project__modal-info">
-                                        Lorem ipsum dolor.
+                                        In working on this project, I contributed as a frontend and back-end developer.
+                                    </p>
+                                    
+                                </li>
+                                <li className="project__modal-project">
+                                    <i className="uil uil-check-circle project__modal-icon">
+
+                                    </i>
+                                    <p className="project__modal-info">
+                                        Create website with Laravel and Mysql for data management
                                     </p>
                                 </li>
+                                <li className="project__modal-project">
+                                    <i className="uil uil-check-circle project__modal-icon">
+
+                                    </i>
+                                    <p className="project__modal-info">
+                                        <a href="https://github.com/aurasagita/bank_sampah.git">Open Github</a>
+                                    </p>
+                                </li>
+                                
                             </ul>
                         </div>
                     </div>
@@ -122,7 +191,7 @@ const Project = () => {
                             <i onClick={() => toogleTab(0)} className="uil uil-times project__modal-close"></i>
                             <h3 className="project__modal-title">SPK MOORA</h3>
                             <p className="project__modal-description">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque dolores neque aliquam, dignissimos ea, repudiandae tempore, sed beatae repellendus illum fugiat molestias autem enim explicabo. Sapiente voluptas veniam incidunt minus.
+                            A website-based decision making system is a platform that is used to help users determine decisions by determining criteria, alternatives and scores for each alternative for each criterion. This website was designed using the Laravel framework.
                             </p>
 
                             <ul className="project__modal-project">
@@ -131,7 +200,31 @@ const Project = () => {
 
                                     </i>
                                     <p className="project__modal-info">
-                                        Lorem ipsum dolor.
+                                        This project was carried out in groups with 3 members
+                                    </p>
+                                </li>
+                                <li className="project__modal-project">
+                                    <i className="uil uil-check-circle project__modal-icon">
+
+                                    </i>
+                                    <p className="project__modal-info">
+                                        Using Laravel as the framework and Mysql for data management
+                                    </p>
+                                </li>
+                                <li className="project__modal-project">
+                                    <i className="uil uil-check-circle project__modal-icon">
+
+                                    </i>
+                                    <p className="project__modal-info">
+                                        Applying the moora method for the ranking calculation process has an accuracy rate of 80%
+                                    </p>
+                                </li>
+                                <li className="project__modal-project">
+                                    <i className="uil uil-check-circle project__modal-icon">
+
+                                    </i>
+                                    <p className="project__modal-info">
+                                        <a href="https://github.com/mirzafaradiba01/spk_moora.git">Open Github</a>
                                     </p>
                                 </li>
                             </ul>
@@ -144,14 +237,14 @@ const Project = () => {
                         <h3 className="project__title">Web BookSelf</h3>
                     </div>
                     <span className="project__button" onClick={() =>
-                    toogleTab(4)}>View More <i className="uil uil-arrow-right project__button-icon"></i></span>
+                    toogleTab(5)}>View More <i className="uil uil-arrow-right project__button-icon"></i></span>
 
-                    <div className={toogleState === 4 ? "projects__modal active-modal" : "projects__modal"}>
+                    <div className={toogleState === 5 ? "projects__modal active-modal" : "projects__modal"}>
                         <div className="project__modal-content">
                             <i onClick={() => toogleTab(0)} className="uil uil-times project__modal-close"></i>
                             <h3 className="project__modal-title">Web BookSelf</h3>
                             <p className="project__modal-description">
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Itaque dolores neque aliquam, dignissimos ea, repudiandae tempore, sed beatae repellendus illum fugiat molestias autem enim explicabo. Sapiente voluptas veniam incidunt minus.
+                            A website that is a to-do list application for recording books that have been read or not.
                             </p>
 
                             <ul className="project__modal-project">
@@ -160,9 +253,10 @@ const Project = () => {
 
                                     </i>
                                     <p className="project__modal-info">
-                                        Lorem ipsum dolor.
+                                        Create website with html, css, and javascript.
                                     </p>
                                 </li>
+                                
                             </ul>
                         </div>
                     </div>

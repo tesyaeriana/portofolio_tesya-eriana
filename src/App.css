@@ -11,7 +11,7 @@
   --body-color: hsl(var(--hue), var(--sat), 98%);
   --container-color: #fff;
   --button-color: #FDC435;
-  --button-hover-color: darken(var(--button-color), 10%); /* Tambahkan properti button-hover-color */
+  --button-hover-color:#fdc43576 ; /* Tambahkan properti button-hover-color */
 
   --body-font: "Poppins", sans-serif;
 
@@ -128,7 +128,7 @@ color: var(--title-color);
 .button {
   display: inline-block;
   background-color: var(--button-color);
-  color: var(--text-color-dark); /* Tambahkan warna teks */
+  color: var(--title-color); /* Tambahkan warna teks */
   padding: 0.5rem 1rem;
   border-radius: 0.5rem;
   font-weight: var(--font-medium);
