@@ -1,7 +1,7 @@
 import React from 'react';
 import './footer.css';
 
-const Footer = () => {
+const NewFoter = () => {
     return (
         <footer className='footer' id='contacts'>
             <div className="footer__container container">
@@ -17,6 +17,7 @@ const Footer = () => {
             </div>
         </footer>
     );
+
 }
 
-export default Footer;
+export default NewFoter;
